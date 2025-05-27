@@ -76,8 +76,6 @@ Client-server chat applications are foundational to real-time communication over
 ### #Server
 ```py
 import socket
-from base64 import decode
-from operator import truediv
 
 server =socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind(('localhost', 9999))
